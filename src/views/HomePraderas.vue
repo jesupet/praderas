@@ -17,9 +17,10 @@
         <div class="row header-text align-items-center">
           <div class="col-md-9 col-12">
             <div class="columna1-header text-start">
-              <h1 class="titulo">Cuidamos la biodiversidad patagónica y a la vez tu patrimonio.</h1>
-              <p class="bajada">Proyecta tu vida y la de tu familia en un entorno lleno de belleza.</p>
-              <GreenButton :to="{name: 'home', hash: '#'+'proyectos'}" :buttonText="'Ver proyectos'"/>
+              <h1 class="titulo">Un lugar increíble, rodeado de <span class="titulo-verde">reservas naturales </span> y paisajes maravillosos.</h1>
+              <p class="bajada">3km. de Río Mañihuales son parte del proyecto.</p>
+              <GreenButton :to="{name: 'home', hash: '#'+'proyectos'}" :buttonText="'Ver masterplan'" class="light-green-btn"/>
+              <GreenButton :to="{name: 'home', hash: '#'+'proyectos'}" :buttonText="'Descargar brochure'"/>
             </div>
           </div>
           <div class="col-md-3 col-12 columna2-header row">

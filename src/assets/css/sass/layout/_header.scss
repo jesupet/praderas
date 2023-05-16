@@ -6,17 +6,17 @@
 .header-container {
   display: flex;
   align-items: center;
-  @media (min-width: 768px){
+  @media (min-width: $desktop-width){
     padding: 0px 80px;
   }
 }
-@media (min-width: 1400px){
-  .columna1-header{
-    width: 67%;
-  }
+.columna1-header{
+  @media (min-width: 1400px){
+      width: 67%;
+    }
 }
 .header-text {
-  padding-top: 100px;
+  padding-top: 180px;
 }
 
 .columna2-header a {

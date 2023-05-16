@@ -2,7 +2,6 @@
   color: $light-green;
 }
 @mixin changebuttoncolor {
-  color: $primary-color;
-  background-color: $color-font;
-  border-color: $primary-color;
+  color: $dark-green;
+  background-color: $light-green;
 }
