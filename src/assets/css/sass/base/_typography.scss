@@ -1,0 +1,50 @@
+h1, h2, h3 {
+  @extend %nunito-font-bold;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  @extend %montse-font-light;
+  font-size: 22px;
+}
+.titulo-verde {
+  font-size: 50px;
+  @extend %nunito-font-bold;
+  @include changecolor;
+}
+.pre-titulo {
+  @extend %nunito-font-light;
+  text-transform: uppercase;
+  color: $black-font;
+  font-size: 20px;
+}
+.little-p {
+  @extend %montse-font-light;
+  font-size: 22px;
+}
+.big-p {
+  @extend %nunito-font-light;
+  font-size: 25px;
+}
+.contact-green-p {
+  @extend %montse-font-light;
+  font-size: 25px;
+  color: $dark-green;
+}
+.preheader-txt {
+  @extend %montse-font-light;
+  font-size: 10px;
+}
+.acc-text {
+  @extend %montse-font-medium;
+  font-size: 28px;
+}
+.bajada-text {
+  @extend %montse-font-medium;
+  font-size: 14px;
+  color: #556170
+}

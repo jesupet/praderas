@@ -1,0 +1,57 @@
+.boton {
+  background-color: $primary-color;
+  color: $color-font;
+  font-family: $lato-font;
+  font-size: 24px;
+  padding: 8px 24px 8px 24px;
+}
+.boton:hover {
+  text-decoration: none;
+  @include changebuttoncolor;
+}
+.boton-blanco {
+  @include changebuttoncolor;
+}
+.boton-blanco:hover {
+  background-color: transparent;
+  color: $color-font;
+  border-color: $color-font;
+}
+
+//whatsapp button
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.whatsapp-icon {
+  opacity: 0.8;
+  transition: 0.7s;
+  width: 53px;
+}
+.whatsapp-icon:hover {
+  opacity: 1;
+}
+.fixed-button.show-button {
+  opacity: 1;
+}
+.btn-proyecto {
+  p, svg{
+    transition: 0.3s;
+  }
+}
+.btn-proyecto:hover {
+  p {
+    color: $primary-color;
+  }
+  svg {
+    fill: $primary-color
+  } 
+}

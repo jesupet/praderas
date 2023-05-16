@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;500&family=Nunito:wght@300;700&display=swap');
+
+$color-font: #fff;
+$black-font: #000;
+$primary-color: #46AC94;
+$primary-color-trans: rgba(70, 172, 148, 0.4);
+$light-green: #BAF4EA;
+$light-green-trans: rgba(186, 244, 234, 0.4);
+$dark-green: #25AE7A;
+
+//$stix-font: 'STIX Two Text', serif;
+
+$nunito-font: 'Nunito', sans-serif;
+$lato-font: 'Lato', sans-serif;
+$montse-font: 'Montserrat', sans-serif;
+
+%nunito-font-bold {
+  font-family: $nunito-font;
+  color: $color-font;
+  font-weight: 700;
+}
+%nunito-font-light {
+  font-family: $nunito-font;
+  color: $color-font;
+  font-weight: 300;
+}
+%montse-font-bold {
+  font-family: $montse-font;
+  font-weight: 500;
+  color: $color-font;
+}
+%montse-font-medium {
+  font-family: $montse-font;
+  font-weight: 400;
+  color: $color-font;
+}
+%montse-font-light {
+  font-family: $montse-font;
+  font-weight: 300;
+  color: $color-font;
+}
+%lato-font-light {
+  font-family: $lato-font;
+  font-weight: 300;
+  color: $color-font;
+}
+%background-image {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+$accordion-button-color: #fff;
+
+$tablet-width: 768px;
+$phone-width: 480px;
+$desktop-width: 1024px;

@@ -1,0 +1,52 @@
+.background-image2 {
+  background-image: url("@/assets/img/header_bg_2.jpg");
+  @extend %background-image;
+}
+#beneficios {
+  padding: 10px 12px;
+  @media (min-width: 768px){
+    padding: 10px 100px;
+  }
+}
+.benefit-card {
+  padding: 10px 20px;
+}
+.benefit-card img {
+  width: 117px;
+  padding: 10px 0px;
+}
+.benefit-icon-cont {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#invertir {
+  padding: 200px 0px;
+}
+.card-text {
+  padding: 25px 70px;
+}
+.card-cont {
+  width: 350px;
+  margin: auto;
+  padding-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+.background-map {
+  background-image: url("@/assets/img/map_bg.jpg");
+  @extend %background-image;
+  background-position: left top;
+}
+.cta-cont {
+  padding: 100px 200px;
+  margin: 0px;
+  @media (max-width: $tablet-width) {
+    padding: 100px 40px;
+  }
+}
+.row {
+  margin: 0px;
+}

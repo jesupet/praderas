@@ -1,0 +1,15 @@
+.navbar {
+  background-color: $light-green-trans;
+  padding: 0px 50px;
+}
+.nav-link {
+  @extend %montse-font-light;
+  font-size: 16px;
+  margin: 7px;
+}
+.active {
+  font-weight: 700;
+}
+.logo {
+  width: 88px;
+}
