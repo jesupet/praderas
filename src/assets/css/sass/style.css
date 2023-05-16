@@ -17,7 +17,7 @@
   color: #fff;
 }
 
-.nav-link, .preheader-txt, .contact-green-p, .little-p, p {
+.nav-link, .pre-navbar-txt, .contact-green-p, .little-p, p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #fff;
@@ -87,8 +87,16 @@ p {
   color: #25AE7A;
 }
 
-.preheader-txt {
-  font-size: 10px;
+.pre-navbar-txt {
+  font-size: 12px;
+  color: #46AC94;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@media (max-width: 768px) {
+  .pre-navbar-txt {
+    font-size: 10px;
+  }
 }
 
 .acc-text {
@@ -100,9 +108,34 @@ p {
   color: #556170;
 }
 
+.pre-navbar {
+  background-color: #BAF4EA;
+}
+.pre-navbar p {
+  margin: 0px;
+  padding: 10px;
+}
+.pre-navbar p a {
+  text-decoration: underline;
+}
+
 .navbar {
   background-color: rgba(186, 244, 234, 0.4);
-  padding: 0px 50px;
+  padding: 20px 50px;
+  position: relative;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 .nav-link {
@@ -115,7 +148,11 @@ p {
 }
 
 .logo {
-  width: 88px;
+  width: 180px;
+}
+
+.navbar-toggler {
+  border: transparent;
 }
 
 .background-image {

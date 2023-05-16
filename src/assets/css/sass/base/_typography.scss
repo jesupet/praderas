@@ -35,9 +35,15 @@ p {
   font-size: 25px;
   color: $dark-green;
 }
-.preheader-txt {
+.pre-navbar-txt {
   @extend %montse-font-light;
-  font-size: 10px;
+  font-size: 12px;
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  @media (max-width: $tablet-width){
+    font-size: 10px;
+  }
 }
 .acc-text {
   @extend %montse-font-medium;

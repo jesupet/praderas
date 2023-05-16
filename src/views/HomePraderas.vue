@@ -3,6 +3,13 @@
   <div class="chile-map-cont">
     <img src="../assets/img/chile_map.png" alt="" class="chile-map">
   </div>
+  <div class="pre-navbar">
+    <p 
+      class="pre-navbar-txt text-center">
+      Este proyecto pertenece a:
+      <a href="https://www.futuropatagonia.cl" target="_blank">Futuro Patagonia Inversiones</a>
+    </p>
+  </div>
   <div class="background-image">
     <NavBar/>
     <div class="container-fluid">

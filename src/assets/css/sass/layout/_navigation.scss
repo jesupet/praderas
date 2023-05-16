@@ -1,6 +1,27 @@
+.pre-navbar {
+  background-color: $light-green;
+  p {
+    margin: 0px;
+    padding: 10px;
+    a {
+      text-decoration: underline;
+    }
+  }
+}
 .navbar {
   background-color: $light-green-trans;
-  padding: 0px 50px;
+  padding: 20px 50px;
+  position: relative;
+}
+.navbar-brand {
+  position: absolute;
+  top: 0;
+  @media (max-width: $tablet-width) {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 .nav-link {
   @extend %montse-font-light;
@@ -11,5 +32,8 @@
   font-weight: 700;
 }
 .logo {
-  width: 88px;
+  width: 180px;
+}
+.navbar-toggler {
+  border: transparent;
 }
