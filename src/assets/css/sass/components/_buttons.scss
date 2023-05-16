@@ -1,5 +1,6 @@
 .boton {
-  background-color: $primary-color;
+  background-color: $dark-green;
+  color: $light-green;
   @extend %lato-font-medium;
   font-size: 24px;
   padding: 8px 24px 8px 24px;
@@ -14,8 +15,8 @@
   @include changebuttoncolor;
 }
 .light-green-btn:hover {
-  background-color: $primary-color;
-  color: $color-font;
+  background-color: $dark-green;
+  color: $light-green;
 }
 
 //whatsapp button

@@ -1,13 +1,34 @@
-.background-image2 {
-  background-image: url("@/assets/img/header_bg_2.jpg");
-  @extend %background-image;
-}
-#beneficios {
-  padding: 10px 12px;
-  @media (min-width: 768px){
-    padding: 10px 100px;
+#section1 {
+  background: linear-gradient(135deg, $dark-green, $primary-color);
+  margin: 0px;
+  padding: 80px 100px;
+  word-wrap: break-word;
+  @media (min-width: $tablet-width){
+
   }
 }
+.desc-text {
+  padding: 0px 40px;
+  p {
+    padding: 20px 300px 0px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    @media (max-width: 1400px) {
+      padding: 20px 0px 0px 0px;
+    }
+  }
+}
+
+#video {
+  padding: 80px 12px;
+}
+
+
+
+
+
+
+
 .benefit-card {
   padding: 10px 20px;
 }
@@ -21,20 +42,11 @@
   justify-content: center;
   align-items: center;
 }
-#invertir {
-  padding: 200px 0px;
-}
+
 .card-text {
   padding: 25px 70px;
 }
-.card-cont {
-  width: 350px;
-  margin: auto;
-  padding-bottom: 50px;
-  img {
-    width: 100%;
-  }
-}
+
 .background-map {
   background-image: url("@/assets/img/map_bg.jpg");
   @extend %background-image;

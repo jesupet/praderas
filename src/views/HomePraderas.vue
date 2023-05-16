@@ -29,78 +29,87 @@
           </div>
         </div>
       </header>
-      <section id="aysen" class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-4">
-            <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
-          </div>
-          <div class="col-12 col-lg-8 desc-text">
-            <h2 class="titulo">Aysén es la mezcla perfecta entre naturaleza y aventura.</h2>
-            <p class="bajada">Esta región cuenta con una gran variedad de paisajes naturales, desde montañas y glaciares hasta ríos y lagos, así como una fauna y flora única en el mundo.</p>
-          </div>
-        </div>
-      </section>
     </div>
   </div>
-  <div class="background-image2">
-    <!--BENEFICIOS-->
-    <div id="beneficios" class="container">
-      <div class="row">
-        <div class="col-12 col-lg-4">
-          <div class="text-center benefit-card">
-            <div class="benefit-icon-cont ">
-              <img src="../assets/icons/bird.png" alt="pajaro">
-            </div>
-            <h3 class="subtitulo">
-              Biodiversidad
-            </h3>
-            <p class="bajada-mini">Contempla especies animales y vegetales únicas</p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="text-center benefit-card">
-             <div class="benefit-icon-cont">
-              <img src="../assets/icons/leave.png" alt="pajaro">
-            </div>
-            <h3 class="subtitulo">
-              Clima y aire
-            </h3>
-            <p class="bajada-mini">Agradable lugar para los diferentes gustos térmicos.</p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4">
-          <div class="text-center benefit-card">
-             <div class="benefit-icon-cont">
-              <img src="../assets/icons/climber.png" alt="pajaro">
-            </div>
-            <h3 class="subtitulo">
-              Actividades únicas
-            </h3>
-            <p class="bajada-mini">Senderismo, cabalgatas, escalada, pesca y mucho más.</p>
-          </div>
-        </div>
+  <section id="section1" class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-4">
+        <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
+      </div>
+      <div class="col-12 col-lg-8 desc-text">
+        <p class="pre-titulo">Ese lugar soñado que esperabas</p>
+        <h2>Praderas de Mañihuales</h2>
+        <img src="../assets/icons/white_wave.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <!--PORQUE INVERTIR-->
-    <div id="invertir" class="text-center container">
-      <h2 class="titulo">¿Porqué invertir<br/><span class="titulo-no-bold">en la patagonia?</span></h2>
+  </section>
+<!--VIDEO-->
+  <div id="video" class="container text-center">
+    <p class="pre-titulo black-font">plenitud, majestuosidad y belleza natural</p>
+    <h2 class="green-font">Conoce más de Mañihuales</h2>
+    <img src="../assets/icons/white_wave.png" alt="">
+    <div>video</div>
+  </div>
+  <div class="background-image2">
+    <!--CIFRAS-->
+    <div id="cifras" class="container">
+      <p class="pre-titulo">Esto es</p>
+      <h2>Praderas de Mañihuales</h2>
+      <img src="../assets/icons/white_wave.png" alt="">
       <div class="row py-5">
-        <div class="col-12 col-xl-4 px-2">
-          <div class="card-cont">
-            <img src="../assets/img/martin.png" alt="martin pescador">
-            <p class="bajada-mini card-text">Cuenta con una rica biodiversidad, tierras fértiles e inmensa <span class="bajada-mini-bold">reserva de agua dulce</span></p>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
           </div>
         </div>
-        <div class="col-12 col-xl-4 px-2">
-          <div class="card-cont">
-            <img src="../assets/img/lago.png" alt="lago">
-            <p class="bajada-mini card-text">Esta región, es una de las que más potencial de <span class="bajada-mini-bold">crecimiento económico </span> tiene.</p>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
           </div>
         </div>
-        <div class="col-12 col-xl-4 px-2">
-          <div class="card-cont">
-            <img src="../assets/img/rio.png" alt="rio">
-            <p class="bajada-mini card-text">Destino ideal para aquellos que buscan desconectar y <span class="bajada-mini-bold">conectar con la naturaleza.</span></p>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
+          </div>
+        </div>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
+          </div>
+        </div>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
+          </div>
+        </div>
+        <div class="col-6 col-xl-4 px-2">
+          <div class="card-cont text-center">
+            <div class="cifra-cont">
+              <p class="numbers">50</p>
+              <img src="../assets/icons/cifra_cont.png" alt="">
+            </div>
+            <h3 class="py-3">Hectáreas de superficie total</h3>
           </div>
         </div>
       </div>

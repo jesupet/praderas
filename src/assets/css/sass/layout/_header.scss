@@ -16,7 +16,7 @@
     }
 }
 .header-text {
-  padding-top: 180px;
+  padding: 180px 0px;
 }
 
 .columna2-header a {
@@ -44,25 +44,7 @@
 .insta-icon:hover, .fb-icon:hover {
   opacity: 60%;
 }
-.header2-img {
-  position: absolute;
-  top: 1;
-  z-index: -2;
-}
-#aysen {
-  padding: 260px 12px;
-  word-wrap: break-word;
-  @media (min-width: 768px){
-    padding: 260px 80px 260px;
-  }
-}
+
 .landscape-img {
   padding: 0px 10px;
-}
-.desc-text {
-  padding: 40px;
-    @media (max-width: $tablet-width){
-      padding-left: 0px;
-      padding-right: 0px;
-  }
 }
