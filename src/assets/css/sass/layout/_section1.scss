@@ -1,6 +1,7 @@
-#section1 {
+.bg-green {
   background: linear-gradient(135deg, $dark-green, $primary-color);
-  margin: 0px;
+}
+#section1 {
   padding: 80px 100px;
   word-wrap: break-word;
   @media (min-width: $tablet-width){
@@ -10,7 +11,7 @@
 .desc-text {
   padding: 0px 40px;
   p {
-    padding: 20px 300px 0px 0px;
+    padding: 20px 0px 0px 0px;
     text-align: justify;
     text-justify: inter-word;
     @media (max-width: 1400px) {

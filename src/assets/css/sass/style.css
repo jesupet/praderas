@@ -237,9 +237,11 @@ p {
   padding: 0px 10px;
 }
 
-#section1 {
+.bg-green {
   background: linear-gradient(135deg, #25AE7A, #46AC94);
-  margin: 0px;
+}
+
+#section1 {
   padding: 80px 100px;
   word-wrap: break-word;
 }
@@ -247,7 +249,7 @@ p {
   padding: 0px 40px;
 }
 .desc-text p {
-  padding: 20px 300px 0px 0px;
+  padding: 20px 0px 0px 0px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -326,6 +328,12 @@ p {
   top: 20%;
   margin: 0 auto;
   text-align: center;
+}
+
+.cifras-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 60px 0px 0px 0px;
 }
 
 .background-image4 {

@@ -31,19 +31,22 @@
       </header>
     </div>
   </div>
-  <section id="section1" class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-12 col-lg-4">
-        <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
+  <div class="bg-green">
+    <section id="section1" class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4">
+          <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
+        </div>
+        <div class="col-12 col-lg-8 desc-text">
+          <p class="pre-titulo">Ese lugar soñado que esperabas</p>
+          <h2>Praderas de Mañihuales</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
       </div>
-      <div class="col-12 col-lg-8 desc-text">
-        <p class="pre-titulo">Ese lugar soñado que esperabas</p>
-        <h2>Praderas de Mañihuales</h2>
-        <img src="../assets/icons/white_wave.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
+  
 <!--VIDEO-->
   <div id="video" class="container text-center">
     <p class="pre-titulo black-font">plenitud, majestuosidad y belleza natural</p>
@@ -70,49 +73,56 @@
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
             <div class="cifra-cont">
-              <p class="numbers">50</p>
+              <p class="numbers">25</p>
               <img src="../assets/icons/cifra_cont.png" alt="">
             </div>
-            <h3 class="py-3">Hectáreas de superficie total</h3>
+            <h3 class="py-3">Lotes con espectaculares cascadas</h3>
           </div>
         </div>
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
             <div class="cifra-cont">
-              <p class="numbers">50</p>
+              <p class="numbers">30</p>
               <img src="../assets/icons/cifra_cont.png" alt="">
             </div>
-            <h3 class="py-3">Hectáreas de superficie total</h3>
+            <h3 class="py-3">Parcelas con orillas de río</h3>
           </div>
         </div>
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
             <div class="cifra-cont">
-              <p class="numbers">50</p>
+              <p class="numbers"></p>
               <img src="../assets/icons/cifra_cont.png" alt="">
             </div>
-            <h3 class="py-3">Hectáreas de superficie total</h3>
+            <h3 class="py-3">3km de río Mañihuales en en proyecto</h3>
           </div>
         </div>
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
             <div class="cifra-cont">
-              <p class="numbers">50</p>
+              <p class="numbers"></p>
               <img src="../assets/icons/cifra_cont.png" alt="">
             </div>
-            <h3 class="py-3">Hectáreas de superficie total</h3>
+            <h3 class="py-3">A 20 minutos de Puerto Aysén</h3>
           </div>
         </div>
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
             <div class="cifra-cont">
-              <p class="numbers">50</p>
+              <p class="numbers"></p>
               <img src="../assets/icons/cifra_cont.png" alt="">
             </div>
-            <h3 class="py-3">Hectáreas de superficie total</h3>
+            <h3 class="py-3">22 Hectáreas de reserva ecológica</h3>
           </div>
         </div>
       </div>
+      <div class="text-center">
+        <img src="../assets/icons/white_wave.png" alt="">
+        <p class="cifras-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      
     </div>
   </div>
     <!--CALL TO ACTION MAP-->
