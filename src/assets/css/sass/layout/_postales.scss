@@ -1,0 +1,27 @@
+#postales {
+  background: linear-gradient(135deg, $light-green, $dark-green);
+  padding: 80px 0px 0px;
+}
+.postales-cont {
+  //display: flex;
+  margin: 0px;
+  padding: 60px 0px 0px;
+}
+.postal-box {
+  //display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+#clientes {
+  padding: 100px 0px;
+  position: relative;
+  z-index: 1;
+  right: 0;
+  left: 0;
+}
+.review-cont {
+  padding: 48px;
+  @media (min-width: $tablet-width){
+    padding: 28px;
+  }
+}

@@ -35,7 +35,7 @@
     <section id="section1" class="container">
       <div class="row align-items-center">
         <div class="col-12 col-lg-4">
-          <img src="../assets/img/aysen_img.png" alt="" class="landscape-img img-fluid">
+          <img src="../assets/img/praderas1.png" alt="" class="landscape-img img-fluid">
         </div>
         <div class="col-12 col-lg-8 desc-text">
           <p class="pre-titulo">Ese lugar soñado que esperabas</p>
@@ -54,8 +54,8 @@
     <img src="../assets/icons/white_wave.png" alt="">
     <div>video</div>
   </div>
+  <!--CIFRAS-->
   <div class="background-image2">
-    <!--CIFRAS-->
     <div id="cifras" class="container">
       <p class="pre-titulo">Esto es</p>
       <h2>Praderas de Mañihuales</h2>
@@ -122,7 +122,31 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      
+    </div>
+  </div>
+  <!--POSTALES-->
+  <div id="postales" class="text-center container-fluid">
+    <h2 class="px-1">Mira estas increíbles postales</h2>
+    <img src="../assets/icons/white_wave.png" alt="">
+    <div class="postales-cont row">
+      <div class="postal-box col-md col-6">
+        <img src="../assets/img/postal1.png" alt="" class="img-fluid">
+      </div>
+      <div class="postal-box col-md col-6">
+        <img src="../assets/img/postal2.png" alt="" class="img-fluid">
+      </div>
+      <div class="postal-box col-md col-6">
+        <img src="../assets/img/postal3.png" alt="" class="img-fluid">
+      </div>
+      <div class="postal-box col-md col-6">
+        <img src="../assets/img/postal4.png" alt="" class="img-fluid">
+      </div>
+      <div class="postal-box col-md col-6">
+        <img src="../assets/img/postal5.png" alt="" class="img-fluid">
+      </div>
+      <div class="postal-box d-md-none col-6">
+        <img src="../assets/img/postal6.png" alt="" class="img-fluid">
+      </div>
     </div>
   </div>
     <!--CALL TO ACTION MAP-->
@@ -211,7 +235,6 @@
       <ContactForm/>
     </div>
   </div>
-  <FooterComp/>
 </template>
 
 <script>
@@ -223,7 +246,6 @@ import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
-import FooterComp from '../components/FooterComp.vue'
 import { mapState } from 'vuex'
 
 export default {
@@ -236,7 +258,6 @@ export default {
     VerProyecto,
     AcordionDudas,
     ContactForm,
-    FooterComp,
   },
   computed: {
     ...mapState(["reviews"])
