@@ -1,0 +1,9 @@
+.background-image4 {
+  background-image: url("@/assets/img/location_bg.png");
+  @extend %background-image;
+}
+#location {
+  .little-p {
+    margin: 20px 0px;
+  }
+}

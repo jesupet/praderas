@@ -171,51 +171,77 @@
       </div>      
     </div>
   </div>
-    
   </div>
-    <!--PROYECTOS-->
+    <!--ENTORNO-->
   <div class="background-image3">
-    <div class="container" id="proyectos">
-      <h1 class="titulo">Los proyectos de <span class="titulo-verde">Futuro Patagonia </span><br/><span class="titulo-no-bold">que cambiarán tu vida</span></h1>
-      <div class="row align-items-center proyect-cont text-start">
-        <div class="col-12 col-md-4 px-0">
-          <img src="../assets/img/rio_blanco.png" alt="rio con volcan" class="img-fluid">
+    <div class="container" id="entorno">
+      <div class="row align-items-center entorno-cont">
+        <div class="col-12 col-md-6 entorno-text order-md-first order-last">
+          <p class="pre-titulo">Entorno</p>
+          <h2>Flora y Fauna</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="col-12 col-md-8 desc-text">
-          <h3 class="titulo">Refugio Río Blanco</h3>
-          <p class="bajada">El proyecto se encuentra emplazado en un lugar privilegiado por la naturaleza, rodeado de bosques siempre verdes y acompañado siempre por el sonido del Río Blanco. Lo maravilloso del sur de Chile, sin complicaciones y con esa belleza natural que buscas.</p>
-          <VerProyecto :to="'https://refugiorioblanco.cl/'"/>
-        </div>
-      </div>
-      <div class="row align-items-center proyect-cont">
-        <div class="col-12 col-md-8 text-end desc-text d-none d-md-block">
-          <h3 class="titulo">Santuario Río Cóndor</h3>
-          <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
-          <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
-        </div>
-        <div class="col-12 col-md-4 px-0 text-start">
-          <img src="../assets/img/rio_condor.png" alt="rio con volcan" class="img-fluid">
-        </div>
-        <div class="col-12 col-md-8 text-start desc-text d-md-none">
-          <h3 class="titulo">Santuario Río Cóndor</h3>
-          <p class="bajada">Santuario Río Cóndor es un proyecto ubicado en el corazón de la naturaleza, con la menor intervención humana que se puede encontrar. Entre Río Condor y Río Laguna Vera, ofrece vistas inigualables, rodeado de hermosos cordones montañosos, un verde brillante y una tranquilidad tan silenciosa que es imposible dejar de escuchar.</p>
-          <VerProyecto :to="'https://santuarioriocondor.cl/'"/>
+        <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
+          <img src="../assets/img/florayfauna.png" alt="rio con volcan" class="img-fluid img-entorno">
         </div>
       </div>
-      <div class="row align-items-center proyect-cont text-start">
-        <div class="col-12 col-md-4 px-0">
-          <img src="../assets/img/praderas.png" alt="rio con volcan" class="img-fluid">
+      <div class="row align-items-center entorno-cont">
+        <div class="col-12 col-md-6 px-0 text-md-start text-center">
+          <img src="../assets/img/actividades.png" alt="rio con volcan" class="img-fluid img-entorno">
         </div>
-        <div class="col-12 col-md-8 desc-text">
-          <h3 class="titulo-verde">PRONTO</h3>
-          <h3 class="titulo">Praderas de Mañihuales</h3>
-          <p class="bajada">Si te has planteado vivir en este impresionante lugar, dentro de poco podrás hacerlo. Este proyecto está ubicado en un lugar increíble, rodeado de reservas naturales, paisajes maravillosos y  3km. del río Mañihuales lo acompañan.</p>
-          <VerProyecto/>
+        <div class="col-12 col-md-6 entorno-text text-md-end">
+          <p class="pre-titulo">Entorno</p>
+          <h2>Actividades</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
+      </div>
+      <div class="row align-items-center entorno-cont">
+        <div class="col-12 col-md-6 entorno-text order-md-first order-last">
+          <p class="pre-titulo">Entorno</p>
+          <h2>Alrededores</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
+          <img src="../assets/img/alrededores.png" alt="rio con volcan" class="img-fluid img-entorno">
+        </div>
+      </div>
+      <div class="text-center entorno-text">
+        <img src="../assets/icons/white_wave.png" alt="">
+        <p class="cifras-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div>
-    <div class="text-center container">
-      <img src="../assets/icons/dash_arrow.svg" alt="flecha punteada" style="width: 100%">
+  </div>
+  <!--LOCATION-->
+  <div class="background-image4">
+    <div class="container" id="location">
+      <div class="row align-items-center entorno-cont">
+        <div class="col-12 col-md-5">
+          <p class="pre-titulo">Como llegar</p>
+          <h2>Desde Santiago</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="little-p">Desde el aeropuerto Arturo Merino Benítez hacia Balmaceda, sin escalas estarás en 2 horas en la Región de Aysén. En el aeropuerto podrás arrendar un auto para desplazarte por la región, previa reserva, o tomar un transfer que tendrá por valor $7.000 p/p hasta Coyhaique, en el caso que decidas alojarte en la capital regional. El trayecto desde el aeropuerto a Coyhaique es de 45 minutos por ruta 100% pavimentada.</p>
+        </div>
+        <div class="col-12 col-md-7 px-0 img-cont text-md-end text-center">
+          <img src="../assets/img/map1.png" alt="rio con volcan" class="img-fluid">
+        </div>
+      </div>
+      <div class="row align-items-center entorno-cont">
+        <div class="col-12 col-md-7 px-0 img-cont text-md-start text-center">
+          <img src="../assets/img/map2.png" alt="rio con volcan" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-5 text-end order-first order-md-end">
+          <p class="pre-titulo">Como llegar</p>
+          <h2>Desde Coyhaique</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="little-p">C.-Tomas el camino con dirección a Puerto Aysén, orientación norte-oeste.D.- Antes de llegar a la ciudad de Puerto Aysén, tras 50 minutos de viaje, te encontrarás con el puente Dunn, por donde atraviesa el Río Aysén; ahí debes tomar la Ruta X-550 en dirección a Río Cóndor. Avanzando por este camino (ripiado, apto para todo tipo de vehículos, y que se encuentra en buenas condiciones ya que es mantenido por vialidad), llegarás a Santuario Río Cóndor en 50 minutos.</p>
+        </div>
+        
+      </div>
     </div>
   </div>
     <!--DUDAS-->
@@ -229,19 +255,7 @@
       </div>
     </div>
   </div>
-    <!--CLIENTES-->
-  <div class="background-image5">
-    <div class="container text-center" id="clientes">
-      <h2 class="titulo">Ellos ya son parte <br/><span class="titulo-no-bold">de Futuro Patagonia</span></h2>
-      <div class="row proyect-cont">
-        <div class="col-12 col-md-4 review-cont" v-for="(reviews, index) in reviews" :key="index">
-          <p class="bajada-italic">{{reviews.descripcion}}</p>
-          <p class="bajada-mini pt-4">{{reviews.autor}}</p>
-          <p class="bajada-mini-verde">{{reviews.proyecto}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    
     <!--CONTACTO-->
   <div id="contacto" class="text-center">
     <div class="container">
@@ -258,7 +272,6 @@
 import WhatsAppBtn from '../components/WhatsAppBtn.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
-import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
 import { mapState } from 'vuex'
@@ -269,7 +282,6 @@ export default {
     WhatsAppBtn,
     NavBar,
     GreenButton,
-    VerProyecto,
     AcordionDudas,
     ContactForm,
   },
