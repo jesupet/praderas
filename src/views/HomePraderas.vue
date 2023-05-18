@@ -149,13 +149,29 @@
       </div>
     </div>
   </div>
-    <!--CALL TO ACTION MAP-->
-  <div class="background-map row">
-    <div class="cta-cont col-xl-8 col-12">
-      <h2 class="titulo">¿Quieres invertir en terrenos seguros, maravillosos y de mucha plusvalía?</h2>
-      <p class="bajada">Conversemos y veamos la mejor opción para lo que buscas.</p>
-      <WhiteButton :to="'/'" :buttonText="'Contactar Whatsapp'"/>
+  <!--MASTERPLAN-->
+  <div id="masterplan" class="container-fluid text-center">
+    <p class="pre-titulo black-font">¡Lanzamiento primera etapa: lotes 1 al 15 disponibles!</p>
+    <h2 class="green-font">Masterplan 360º</h2>
+    <img src="../assets/icons/white_wave.png" alt="">
+    <div class="img-box">
+      <img src="../assets/img/masterplan.png" alt="" class="img-fluid">
     </div>
+  </div>
+    <!--CALL TO ACTION-->
+  <div id="cta">
+    <div class="container">
+      <div class="cta-cont row align-items-center">
+      <div class="col-md-6 col-12">
+        <h2>¿Quieres saber más de este maravilloso y prístino proyecto?</h2>
+        <img src="../assets/icons/white_wave.png" alt="">
+      </div>
+      <div class="col-md-6 col-12 btn-cont">
+        <GreenButton :to="'/'" :buttonText="'Descargar brochure'"/>
+      </div>      
+    </div>
+  </div>
+    
   </div>
     <!--PROYECTOS-->
   <div class="background-image3">
@@ -242,7 +258,6 @@
 import WhatsAppBtn from '../components/WhatsAppBtn.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
-import WhiteButton from '../components/WhiteButton.vue'
 import VerProyecto from '../components/VerProyecto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
@@ -254,7 +269,6 @@ export default {
     WhatsAppBtn,
     NavBar,
     GreenButton,
-    WhiteButton,
     VerProyecto,
     AcordionDudas,
     ContactForm,

@@ -47,19 +47,3 @@
 .card-text {
   padding: 25px 70px;
 }
-
-.background-map {
-  background-image: url("@/assets/img/map_bg.jpg");
-  @extend %background-image;
-  background-position: left top;
-}
-.cta-cont {
-  padding: 100px 200px;
-  margin: 0px;
-  @media (max-width: $tablet-width) {
-    padding: 100px 40px;
-  }
-}
-.row {
-  margin: 0px;
-}

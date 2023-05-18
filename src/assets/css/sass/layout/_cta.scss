@@ -1,0 +1,21 @@
+#cta {
+  background: linear-gradient(135deg, $dark-green, $light-green);
+  padding: 80px 0px;
+}
+.cta-cont {
+  padding: 0px 70px;
+  @media (max-width: $tablet-width) {
+    
+  }
+}
+.btn-cont {
+  padding: 20px 0px;
+  text-align: end;
+  @media (max-width: $tablet-width){
+    text-align: start;
+  }
+  button {
+    margin: 0px;
+    
+  }
+}
