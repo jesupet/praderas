@@ -211,7 +211,7 @@
       <div class="text-center entorno-text">
         <img src="../assets/icons/white_wave.png" alt="">
         <p class="cifras-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <span class="bold-p">¿Quieres ir un poco más allá?</span> Traspasando los límites comunales puedes visitar el Parque Nacional Queulat, Cerro Castillo, Lago General Carrera, Capillas de Mármol, Centro de Ski El Fraile, entre otros increíbles atractivos turísticos.
         </p>
       </div>
     </div>
@@ -227,12 +227,12 @@
           <p class="little-p">Desde el aeropuerto Arturo Merino Benítez hacia Balmaceda, sin escalas estarás en 2 horas en la Región de Aysén. En el aeropuerto podrás arrendar un auto para desplazarte por la región, previa reserva, o tomar un transfer que tendrá por valor $7.000 p/p hasta Coyhaique, en el caso que decidas alojarte en la capital regional. El trayecto desde el aeropuerto a Coyhaique es de 45 minutos por ruta 100% pavimentada.</p>
         </div>
         <div class="col-12 col-md-7 px-0 img-cont text-md-end text-center">
-          <img src="../assets/img/map1.png" alt="rio con volcan" class="img-fluid">
+          <img src="../assets/img/map1.png" alt="rio con volcan" class="img-fluid img-map">
         </div>
       </div>
       <div class="row align-items-center entorno-cont">
-        <div class="col-12 col-md-7 px-0 img-cont text-md-start text-center">
-          <img src="../assets/img/map2.png" alt="rio con volcan" class="img-fluid">
+        <div class="col-12 col-md-7 px-0 img-cont text-md-start text-center order-md-first order-end">
+          <img src="../assets/img/map2.png" alt="rio con volcan" class="img-fluid img-map">
         </div>
         <div class="col-12 col-md-5 text-end order-first order-md-end">
           <p class="pre-titulo">Como llegar</p>
@@ -240,11 +240,59 @@
           <img src="../assets/icons/white_wave.png" alt="">
           <p class="little-p">C.-Tomas el camino con dirección a Puerto Aysén, orientación norte-oeste.D.- Antes de llegar a la ciudad de Puerto Aysén, tras 50 minutos de viaje, te encontrarás con el puente Dunn, por donde atraviesa el Río Aysén; ahí debes tomar la Ruta X-550 en dirección a Río Cóndor. Avanzando por este camino (ripiado, apto para todo tipo de vehículos, y que se encuentra en buenas condiciones ya que es mantenido por vialidad), llegarás a Santuario Río Cóndor en 50 minutos.</p>
         </div>
-        
+        <div class="text-center location-text">
+          <p class="pre-titulo">
+            planifica tu viaje
+          </p>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <div class="row">
+            <div class="col-4">
+              <img src="../assets/icons/location_circle.svg" alt="" class="circle">
+              <p class="big-p">
+                <spam class="bold-p">Temperatura</spam><br/>
+                2°C a 25°C
+              </p>
+            </div>
+            <div class="col-4">
+              <img src="../assets/icons/location_circle.svg" alt="" class="circle">
+              <p class="big-p">
+                <spam class="bold-p">Ubicación</spam><br/>
+                Región de Aysén, Chile
+              </p>
+            </div>
+            <div class="col-4">
+              <img src="../assets/icons/location_circle.svg" alt="" class="circle">
+              <p class="big-p">
+                <spam class="bold-p">Clima</spam><br/>
+                Templado, lluvioso
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-    <!--DUDAS-->
+    <!--CONTACTO-->
+  <div id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 pe-5">
+          <p class="pre-titulo black-font">¿coordinemos una visita?</p>
+          <h2 class="green-font">Contáctanos</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="black-font">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
+          <ContactForm/>
+        </div>
+        <div class="col-12 col-md-5">
+          <p class="pre-titulo black-font">síguenos o</p>
+          <h2 class="green-font">puedes encontrarnos</h2>
+          <img src="../assets/icons/white_wave.png" alt="">
+          <p class="black-font">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--DUDAS-->
   <div class="background-image4">
     <img src="../assets/img/hombre.png" alt="hombre" class="hombre-img img-fluid">
     <div id="dudas" class="container">
@@ -256,15 +304,6 @@
     </div>
   </div>
     
-    <!--CONTACTO-->
-  <div id="contacto" class="text-center">
-    <div class="container">
-      <img src="../assets/icons/mail.svg" alt="" class="pb-5">
-      <h2 class="titulo">¿Quieres enterarte de cada nuevo proyecto?</h2>
-      <p class="bajada">Déjanos tu email y serás parte de la comunidad de Futuro Patagonia Inversiones.</p>
-      <ContactForm/>
-    </div>
-  </div>
 </template>
 
 <script>

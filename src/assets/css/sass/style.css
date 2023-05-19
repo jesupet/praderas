@@ -130,6 +130,10 @@ p {
   color: #25AE7A;
 }
 
+.bold-p {
+  font-weight: bold;
+}
+
 .pre-navbar {
   background-color: #BAF4EA;
 }
@@ -307,9 +311,9 @@ p {
 }
 
 .cifras-text {
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
-  padding: 60px 0px 0px 0px;
+  padding: 60px 60px 0px;
 }
 
 .background-image4 {
@@ -433,9 +437,31 @@ p {
 #location .little-p {
   margin: 20px 0px;
 }
+#location .img-map {
+  padding: 0px 20px;
+  max-width: 100%;
+}
+
+.location-text {
+  padding: 80px 0px;
+}
+.location-text .row {
+  padding: 40px 0px;
+}
+.location-text .row .big-p {
+  padding: 20px 80px;
+}
+@media (max-width: 1024px) {
+  .location-text .row .big-p {
+    padding: 20px;
+  }
+}
+
+.circle {
+  margin: 10px;
+}
 
 #contacto {
-  background-color: #556170;
   padding: 100px 0px;
 }
 
