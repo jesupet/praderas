@@ -70,3 +70,7 @@ p {
 .bold-p {
   font-weight: bold;
 }
+.input-text {
+  @extend %lato-font-light;
+  font-size: 22px;
+}

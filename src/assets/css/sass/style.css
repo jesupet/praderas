@@ -23,6 +23,12 @@
   color: #fff;
 }
 
+.input-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
 .boton {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -132,6 +138,10 @@ p {
 
 .bold-p {
   font-weight: bold;
+}
+
+.input-text {
+  font-size: 22px;
 }
 
 .pre-navbar {
@@ -466,7 +476,8 @@ p {
 }
 
 .form-control {
-  width: 40vh;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .copyright {

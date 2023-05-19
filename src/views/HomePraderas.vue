@@ -280,14 +280,14 @@
           <p class="pre-titulo black-font">¿coordinemos una visita?</p>
           <h2 class="green-font">Contáctanos</h2>
           <img src="../assets/icons/white_wave.png" alt="">
-          <p class="black-font">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
+          <p class="black-font little-p">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
           <ContactForm/>
         </div>
         <div class="col-12 col-md-5">
           <p class="pre-titulo black-font">síguenos o</p>
           <h2 class="green-font">puedes encontrarnos</h2>
           <img src="../assets/icons/white_wave.png" alt="">
-          <p class="black-font">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
+          <p class="black-font little-p">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
         </div>
       </div>
     </div>
