@@ -1,23 +1,27 @@
 <template>
-  <div class="accordion accordion-flush" id="accordionFlushExample" v-for="(preguntas, index) in preguntas" :key="index">
-    <div class="accordion-item">
-      <h2 class="accordion-header acordion-titulo">
-        <button 
-          class="accordion-button collapsed btn-acc acordion-titulo" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          :data-bs-target="'#flush-collapse'+index" 
-          aria-expanded="false" 
-          :aria-controls="'#flush-collapse'+index">
-          {{preguntas.pregunta}}
-        </button>
-      </h2>
-      <div 
-        :id="'flush-collapse'+index" 
-        class="accordion-collapse collapse bajada" 
-        data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">
-          {{preguntas.respuesta}}
+  <div class="accordion-comp">
+    <div class="accordion accordion-flush" id="accordionFlushExample" v-for="(preguntas, index) in preguntas" :key="index">
+      <div class="accordion-item">
+        <h2 class="accordion-header acordion-titulo">
+          <button 
+            class="accordion-button collapsed btn-acc acordion-titulo acc-text" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            :data-bs-target="'#flush-collapse'+index" 
+            aria-expanded="false" 
+            :aria-controls="'#flush-collapse'+index">
+            {{preguntas.pregunta}}
+          </button>
+        </h2>
+        <div 
+          :id="'flush-collapse'+index" 
+          class="accordion-collapse collapse" 
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p class="text-start">
+              {{preguntas.respuesta}}
+            </p>
+          </div>
         </div>
       </div>
     </div>

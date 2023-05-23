@@ -1,16 +1,15 @@
-.background-image4 {
-  background-image: url("@/assets/img/dudas_bg.jpg");
-  @extend %background-image;
-  position: relative;
-}
 #dudas {
-  padding: 100px 50px;
-  
+  padding: 100px 0px;
+  background-color: $primary-color;
+  .container {
+    @media (min-width: $desktop-width){
+      padding: 0px 200px;
+    }
+  }
 }
 .accordion-item, .accordion-button:not(.collapsed) {
   background-color: transparent;
   color: $color-font;
-  border: 0px solid transparent;
 }
 .accordion .accordion-button::after {
   filter: invert(1);
@@ -20,10 +19,9 @@
 }
 .accordion-button {
   border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: $color-font;
 }
-.hombre-img {
-  width: 40%;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+.accordion-comp {
+  margin: 50px 0px;
 }

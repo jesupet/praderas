@@ -40,7 +40,7 @@
         <div class="col-12 col-lg-8 desc-text">
           <p class="pre-titulo">Ese lugar soñado que esperabas</p>
           <h2>Praderas de Mañihuales</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
@@ -51,7 +51,7 @@
   <div id="video" class="container text-center">
     <p class="pre-titulo black-font">plenitud, majestuosidad y belleza natural</p>
     <h2 class="green-font">Conoce más de Mañihuales</h2>
-    <img src="../assets/icons/white_wave.png" alt="">
+    <WaveComp/>
     <div>video</div>
   </div>
   <!--CIFRAS-->
@@ -59,7 +59,7 @@
     <div id="cifras" class="container">
       <p class="pre-titulo">Esto es</p>
       <h2>Praderas de Mañihuales</h2>
-      <img src="../assets/icons/white_wave.png" alt="">
+      <WaveComp/>
       <div class="row py-5">
         <div class="col-6 col-xl-4 px-2">
           <div class="card-cont text-center">
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div class="text-center">
-        <img src="../assets/icons/white_wave.png" alt="">
+        <WaveComp/>
         <p class="cifras-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
@@ -127,7 +127,7 @@
   <!--POSTALES-->
   <div id="postales" class="text-center container-fluid">
     <h2 class="px-1">Mira estas increíbles postales</h2>
-    <img src="../assets/icons/white_wave.png" alt="">
+    <WaveComp/>
     <div class="postales-cont row">
       <div class="postal-box col-md col-6">
         <img src="../assets/img/postal1.png" alt="" class="img-fluid">
@@ -153,7 +153,7 @@
   <div id="masterplan" class="container-fluid text-center">
     <p class="pre-titulo black-font">¡Lanzamiento primera etapa: lotes 1 al 15 disponibles!</p>
     <h2 class="green-font">Masterplan 360º</h2>
-    <img src="../assets/icons/white_wave.png" alt="">
+    <WaveComp/>
     <div class="img-box">
       <img src="../assets/img/masterplan.png" alt="" class="img-fluid">
     </div>
@@ -164,7 +164,7 @@
       <div class="cta-cont row align-items-center">
       <div class="col-md-6 col-12">
         <h2>¿Quieres saber más de este maravilloso y prístino proyecto?</h2>
-        <img src="../assets/icons/white_wave.png" alt="">
+        <WaveComp/>
       </div>
       <div class="col-md-6 col-12 btn-cont">
         <GreenButton :to="'/'" :buttonText="'Descargar brochure'"/>
@@ -179,7 +179,7 @@
         <div class="col-12 col-md-6 entorno-text order-md-first order-last">
           <p class="pre-titulo">Entorno</p>
           <h2>Flora y Fauna</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
@@ -193,7 +193,7 @@
         <div class="col-12 col-md-6 entorno-text text-md-end">
           <p class="pre-titulo">Entorno</p>
           <h2>Actividades</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
@@ -201,7 +201,7 @@
         <div class="col-12 col-md-6 entorno-text order-md-first order-last">
           <p class="pre-titulo">Entorno</p>
           <h2>Alrededores</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
@@ -209,7 +209,7 @@
         </div>
       </div>
       <div class="text-center entorno-text">
-        <img src="../assets/icons/white_wave.png" alt="">
+        <WaveComp/>
         <p class="cifras-text">
           <span class="bold-p">¿Quieres ir un poco más allá?</span> Traspasando los límites comunales puedes visitar el Parque Nacional Queulat, Cerro Castillo, Lago General Carrera, Capillas de Mármol, Centro de Ski El Fraile, entre otros increíbles atractivos turísticos.
         </p>
@@ -223,7 +223,7 @@
         <div class="col-12 col-md-5">
           <p class="pre-titulo">Como llegar</p>
           <h2>Desde Santiago</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="little-p">Desde el aeropuerto Arturo Merino Benítez hacia Balmaceda, sin escalas estarás en 2 horas en la Región de Aysén. En el aeropuerto podrás arrendar un auto para desplazarte por la región, previa reserva, o tomar un transfer que tendrá por valor $7.000 p/p hasta Coyhaique, en el caso que decidas alojarte en la capital regional. El trayecto desde el aeropuerto a Coyhaique es de 45 minutos por ruta 100% pavimentada.</p>
         </div>
         <div class="col-12 col-md-7 px-0 img-cont text-md-end text-center">
@@ -237,14 +237,14 @@
         <div class="col-12 col-md-5 text-end order-first order-md-end">
           <p class="pre-titulo">Como llegar</p>
           <h2>Desde Coyhaique</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="little-p">C.-Tomas el camino con dirección a Puerto Aysén, orientación norte-oeste.D.- Antes de llegar a la ciudad de Puerto Aysén, tras 50 minutos de viaje, te encontrarás con el puente Dunn, por donde atraviesa el Río Aysén; ahí debes tomar la Ruta X-550 en dirección a Río Cóndor. Avanzando por este camino (ripiado, apto para todo tipo de vehículos, y que se encuentra en buenas condiciones ya que es mantenido por vialidad), llegarás a Santuario Río Cóndor en 50 minutos.</p>
         </div>
         <div class="text-center location-text">
           <p class="pre-titulo">
             planifica tu viaje
           </p>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <div class="row">
             <div class="col-4">
               <img src="../assets/icons/location_circle.svg" alt="" class="circle">
@@ -279,50 +279,103 @@
         <div class="col-12 col-md-7 pe-5">
           <p class="pre-titulo black-font">¿coordinemos una visita?</p>
           <h2 class="green-font">Contáctanos</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
+          <WaveComp/>
           <p class="black-font little-p">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
           <ContactForm/>
         </div>
         <div class="col-12 col-md-5">
           <p class="pre-titulo black-font">síguenos o</p>
           <h2 class="green-font">puedes encontrarnos</h2>
-          <img src="../assets/icons/white_wave.png" alt="">
-          <p class="black-font little-p">Ingresa al masterplan 360, elige cual lote te gustó y ponte en contacto con nosotros a través de formulario o a nuestro Whatsapp para coordinar visita.</p>
+          <WaveComp/>
+          <div class="row align-items-center mt-4">
+            <div class="col-1">
+              <img src="../assets/icons/wsp_green.svg" alt="">
+            </div>
+            <div class="col-11">
+              <p class="little-p grey-font m-0">
+                Whatsapp
+              </p>
+              <p class="contact-green-p m-0">
+                +56989965077
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col-1">
+              <img src="../assets/icons/mail_green.svg" alt="">
+            </div>
+            <div class="col-11">
+              <p class="little-p grey-font m-0">
+                Correo Electrónico
+              </p>
+              <p class="contact-green-p m-0">
+                info@praderasdemañihuales.cl
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col-1">
+              <img src="../assets/icons/ig_green.svg" alt="">
+            </div>
+            <div class="col-11">
+              <p class="little-p grey-font m-0">
+                Instagram
+              </p>
+              <p class="contact-green-p m-0">
+                @praderasdemañihuales
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col-1">
+              <img src="../assets/icons/wsp_green.svg" alt="">
+            </div>
+            <div class="col-11">
+              <p class="little-p grey-font m-0">
+                Facebook
+              </p>
+              <p class="contact-green-p m-0">
+                Praderas de Mañihuales
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
       <!--DUDAS-->
-  <div class="background-image4">
-    <img src="../assets/img/hombre.png" alt="hombre" class="hombre-img img-fluid">
-    <div id="dudas" class="container">
-      <h2 class="titulo">Tal vez tienes dudas</h2>
-      <h3 class="titulo-no-bold">Aquí responderemos las más frecuentes</h3>
-      <div class="col-xl-9 col-12">
-        <AcordionDudas/>
-      </div>
+  <div id="dudas">
+    <div class="container text-center">
+      <h2>¿Tienes dudas?</h2>
+       <WaveComp/>
+       <div class="little-p">Queremos que seas parte de Praderas de Mañihuales, acá te dejamos respuestas a las preguntas más frecuentes para que las despejes y te animes:</div>
+       <AcordionDudas/>
     </div>
   </div>
-    
+  <FooterComp/>  
 </template>
 
 <script>
 // @ is an alias to /src
 import WhatsAppBtn from '../components/WhatsAppBtn.vue'
+import WaveComp from '../components/WaveComp.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
+import FooterComp from '../components/FooterComp.vue'
 import { mapState } from 'vuex'
 
 export default {
   name: 'HomePatagonia',
   components: {
     WhatsAppBtn,
+    WaveComp,
     NavBar,
     GreenButton,
     AcordionDudas,
     ContactForm,
+    FooterComp,
   },
   computed: {
     ...mapState(["reviews"])

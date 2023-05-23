@@ -55,13 +55,16 @@ p {
 .bajada-text {
   @extend %montse-font-medium;
   font-size: 14px;
-  color: #556170
+  color: $grey-font
 }
 .black-font {
   color: $black-font;
 }
 .green-font {
   color: $primary-color;
+}
+.grey-font {
+  color: $grey-font;
 }
 .numbers {
   font-size: 60px;
