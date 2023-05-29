@@ -5,12 +5,21 @@
 .postales-cont {
   //display: flex;
   margin: 0px;
-  padding: 60px 0px 0px;
+  padding: 0px;
+  &:hover .postal-box .overlay {
+    opacity: 100%;
+  }
+  img {
+    width: 100%;
+    
+  }
 }
 .postal-box {
   //display: flex;
   padding: 0px;
   margin: 0px;
+  position: relative;
+  transition: 0.8s;
 }
 #clientes {
   padding: 100px 0px;

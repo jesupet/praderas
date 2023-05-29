@@ -128,12 +128,22 @@
   <div id="postales" class="text-center container-fluid">
     <h2 class="px-1">Mira estas increíbles postales</h2>
     <WaveComp/>
-    <div class="postales-cont row">
-      <div class="postal-box col-md col-6">
-        <img src="../assets/img/postal1.png" alt="" class="img-fluid">
+    <div class="row">
+      <div class="postales-cont col-md col-6">
+        <div class="postal-box">
+          <img src="../assets/img/postal1.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
+            <!-- Modal -->
+            <ModalPhoto :photoId="1"/>
+          </div>
+        </div>
       </div>
       <div class="postal-box col-md col-6">
         <img src="../assets/img/postal2.png" alt="" class="img-fluid">
+        <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
+          <!-- Modal -->
+          <ModalPhoto :photoId="2"/>
+        </div>
       </div>
       <div class="postal-box col-md col-6">
         <img src="../assets/img/postal3.png" alt="" class="img-fluid">
@@ -361,6 +371,7 @@ import WhatsAppBtn from '../components/WhatsAppBtn.vue'
 import WaveComp from '../components/WaveComp.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
+import ModalPhoto from '../components/ModalPhoto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
 import FooterComp from '../components/FooterComp.vue'
@@ -373,6 +384,7 @@ export default {
     WaveComp,
     NavBar,
     GreenButton,
+    ModalPhoto,
     AcordionDudas,
     ContactForm,
     FooterComp,

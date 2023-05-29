@@ -11,19 +11,19 @@
             <a class="nav-link" aria-current="page" href="#">Bienvenido</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'proyecto'}">Proyecto</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'section1'}">Proyecto</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'entorno'}">Entorno</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'lugar'}">Lugar</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'location'}">Lugar</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'faqs'}">Faqs</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'dudas'}">Faqs</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'conversemos'}">Conversemos</router-link>
+            <router-link class="nav-link" aria-current="page" :to="{name: 'home', hash: '#'+'contacto'}">Conversemos</router-link>
           </li>
         </ul>
       </div>
