@@ -12050,7 +12050,7 @@ p {
 }
 
 #section1 {
-  padding: 80px 100px;
+  padding: 80px 0px;
   word-wrap: break-word;
 }
 .desc-text {
@@ -12066,26 +12066,6 @@ p {
   padding: 80px 12px;
 }
 
-.benefit-card {
-  padding: 10px 20px;
-}
-
-.benefit-card img {
-  width: 117px;
-  padding: 10px 0px;
-}
-
-.benefit-icon-cont {
-  min-height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-text {
-  padding: 25px 70px;
-}
-
 .background-image2 {
   background-image: url("@/assets/img/cifras_bg.png");
   margin: 0px;
@@ -12093,12 +12073,13 @@ p {
 }
 
 #cifras {
-  padding: 80px 12px;
+  padding: 80px 48px;
 }
 
 .card-cont {
   margin: auto;
-  padding: 50px 70px;
+  max-width: 300px;
+  padding: 24px;
 }
 
 .cifra-cont {
@@ -12117,7 +12098,7 @@ p {
 .cifras-text {
   text-align: center;
   text-justify: inter-word;
-  padding: 60px 60px 0px;
+  padding: 60px 0px;
 }
 
 #dudas {
@@ -12155,7 +12136,11 @@ p {
 
 #postales {
   background: linear-gradient(135deg, #BAF4EA, #25AE7A);
-  padding: 80px 0px 0px;
+  background-position: end;
+}
+#postales .tittle {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .postales-cont {
@@ -12176,28 +12161,14 @@ p {
   transition: 0.8s;
 }
 
-#clientes {
-  padding: 100px 0px;
-  position: relative;
-  z-index: 1;
-  right: 0;
-  left: 0;
-}
-
-.review-cont {
-  padding: 48px;
-}
-@media (min-width: 768px) {
-  .review-cont {
-    padding: 28px;
-  }
-}
-
 #masterplan {
   padding: 80px 0px 0px;
 }
 #masterplan .img-box {
   padding-top: 60px;
+}
+#masterplan .pre-titulo {
+  margin: 16px 80px;
 }
 
 #cta {
@@ -12206,7 +12177,7 @@ p {
 }
 
 .cta-cont {
-  padding: 0px 70px;
+  padding: 0px 48px;
 }
 .btn-cont {
   padding: 20px 0px;
@@ -12226,11 +12197,7 @@ p {
 }
 
 #entorno {
-  padding: 80px 0px;
-}
-
-.entorno-cont {
-  padding-top: 100px;
+  padding: 100px 48px;
 }
 
 .img-entorno {
@@ -12238,13 +12205,16 @@ p {
 }
 
 .entorno-text {
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 .background-image4 {
   background-image: url("@/assets/img/location_bg.png");
 }
 
+#location {
+  padding: 100px 48px;
+}
 #location .little-p {
   margin: 20px 0px;
 }
@@ -12259,21 +12229,17 @@ p {
 .location-text .row {
   padding: 40px 0px;
 }
-.location-text .row .big-p {
-  padding: 20px 80px;
-}
-@media (max-width: 1024px) {
-  .location-text .row .big-p {
-    padding: 20px;
-  }
-}
 
 .circle {
   margin: 10px;
 }
 
+.location-cont {
+  padding: 64px 0px;
+}
+
 #contacto {
-  padding: 100px 0px;
+  padding: 100px 48px;
 }
 
 .form-control {
@@ -12385,6 +12351,10 @@ p {
 
 .modal-body {
   padding: 0px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: relative;
 }
 
 .chile-map-cont {

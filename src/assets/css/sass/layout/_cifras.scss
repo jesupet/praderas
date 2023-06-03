@@ -5,11 +5,12 @@
   margin-bottom: -1px;
 }
 #cifras {
-  padding: 80px 12px;
+  padding: 80px 48px;
 }
 .card-cont {
   margin: auto;
-  padding: 50px 70px;
+  max-width: 300px;
+  padding: 24px;
 }
 .cifra-cont {
   position: relative;
@@ -25,5 +26,5 @@
 .cifras-text {
   text-align: center;
   text-justify: inter-word;
-  padding: 60px 60px 0px;
+  padding: 60px 0px;
 }

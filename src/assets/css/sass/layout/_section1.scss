@@ -2,7 +2,7 @@
   background: linear-gradient(135deg, $dark-green, $primary-color);
 }
 #section1 {
-  padding: 80px 100px;
+  padding: 80px 0px;
   word-wrap: break-word;
   @media (min-width: $tablet-width){
 
@@ -19,28 +19,4 @@
 
 #video {
   padding: 80px 12px;
-}
-
-
-
-
-
-
-
-.benefit-card {
-  padding: 10px 20px;
-}
-.benefit-card img {
-  width: 117px;
-  padding: 10px 0px;
-}
-.benefit-icon-cont {
-  min-height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-text {
-  padding: 25px 70px;
 }

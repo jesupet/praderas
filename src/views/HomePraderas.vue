@@ -1,7 +1,7 @@
 <template>
   <WhatsAppBtn class="whatsapp fixed-button" :v-if="showButton"/>
   <div class="chile-map-cont">
-    <img src="../assets/img/chile_map.png" alt="" class="chile-map">
+    <img src="../assets/img/chile_map.png" alt="" class="chile-map d-md-block d-none">
   </div>
   <div class="pre-navbar">
     <p 
@@ -126,33 +126,155 @@
   </div>
   <!--POSTALES-->
   <div id="postales" class="text-center container-fluid">
-    <h2 class="px-1">Mira estas increíbles postales</h2>
-    <WaveComp/>
+    <div class="tittle">
+      <h2>Mira estas increíbles postales</h2>
+      <WaveComp/>
+    </div>
     <div class="row">
       <div class="postales-cont col-md col-6">
         <div class="postal-box">
           <img src="../assets/img/postal1.png" alt="" class="img-fluid">
-          <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
+          <div class="overlay text-center d-md-flex d-none justify-content-center flex-column align-items-center">
+            <!-- Modal Button -->
+            <a href="" class="hover green-font" data-bs-toggle="modal" data-bs-target="#photoModal">Ver</a>
             <!-- Modal -->
-            <ModalPhoto :photoId="1"/>
+            <div 
+            class="modal" 
+            tabindex="-1" 
+            id="photoModal" 
+            aria-labelledby="photoModalLabel" 
+            aria-hidden="true" 
+            data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header text-end">
+                      <h1 class="modal-title fs-5" id="photoModalLabel"></h1>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  <div class="modal-body">
+                    <img src="../assets/img/postal1.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="postal-box col-md col-6">
-        <img src="../assets/img/postal2.png" alt="" class="img-fluid">
-        <div class="overlay text-center d-flex justify-content-center flex-column align-items-center">
-          <!-- Modal -->
-          <ModalPhoto :photoId="2"/>
+      <div class="postales-cont col-md col-6">
+        <div class="postal-box">
+          <img src="../assets/img/postal2.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-md-flex d-none justify-content-center flex-column align-items-center">
+            <!-- Modal Button -->
+            <a href="" class="hover green-font" data-bs-toggle="modal" data-bs-target="#photoModal2">Ver</a>
+            <!-- Modal -->
+            <div 
+            class="modal" 
+            tabindex="-2" 
+            id="photoModal2" 
+            aria-labelledby="photoModalLabel2" 
+            aria-hidden="true" 
+            data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header text-end">
+                      <h1 class="modal-title fs-5" id="photoModalLabel2"></h1>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  <div class="modal-body">
+                    <img src="../assets/img/postal2.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="postal-box col-md col-6">
-        <img src="../assets/img/postal3.png" alt="" class="img-fluid">
+      <div class="postales-cont col-md col-6">
+        <div class="postal-box">
+          <img src="../assets/img/postal3.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-md-flex d-none justify-content-center flex-column align-items-center">
+              <!-- Modal Button -->
+              <a href="" class="hover green-font" data-bs-toggle="modal" data-bs-target="#photoModal3">Ver</a>
+              <!-- Modal -->
+              <div 
+              class="modal" 
+              tabindex="-3" 
+              id="photoModal3" 
+              aria-labelledby="photoModalLabel3" 
+              aria-hidden="true" 
+              data-bs-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header text-end">
+                        <h1 class="modal-title fs-5" id="photoModalLabel3"></h1>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                    <div class="modal-body">
+                      <img src="../assets/img/postal3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
-      <div class="postal-box col-md col-6">
-        <img src="../assets/img/postal4.png" alt="" class="img-fluid">
+      <div class="postales-cont col-md col-6">
+        <div class="postal-box">
+          <img src="../assets/img/postal4.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-md-flex d-none justify-content-center flex-column align-items-center">
+            <!-- Modal Button -->
+            <a href="" class="hover green-font" data-bs-toggle="modal" data-bs-target="#photoModal4">Ver</a>
+            <!-- Modal -->
+            <div 
+            class="modal" 
+            tabindex="-4" 
+            id="photoModal4" 
+            aria-labelledby="photoModalLabel4" 
+            aria-hidden="true" 
+            data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header text-end">
+                      <h1 class="modal-title fs-5" id="photoModalLabel4"></h1>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  <div class="modal-body">
+                    <img src="../assets/img/postal4.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="postal-box col-md col-6">
-        <img src="../assets/img/postal5.png" alt="" class="img-fluid">
+      <div class="postales-cont col-md col-6">
+        <div class="postal-box">
+          <img src="../assets/img/postal5.png" alt="" class="img-fluid">
+          <div class="overlay text-center d-md-flex d-none justify-content-center flex-column align-items-center">
+            <!-- Modal Button -->
+            <a href="" class="hover green-font" data-bs-toggle="modal" data-bs-target="#photoModal5">Ver</a>
+            <!-- Modal -->
+            <div 
+            class="modal" 
+            tabindex="-5" 
+            id="photoModal5" 
+            aria-labelledby="photoModalLabel5" 
+            aria-hidden="true" 
+            data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header text-end">
+                      <h1 class="modal-title fs-5" id="photoModalLabel5"></h1>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                  <div class="modal-body">
+                    <img src="../assets/img/postal5.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="postal-box d-md-none col-6">
         <img src="../assets/img/postal6.png" alt="" class="img-fluid">
@@ -186,19 +308,67 @@
   <div class="background-image3">
     <div class="container" id="entorno">
       <div class="row align-items-center entorno-cont">
-        <div class="col-12 col-md-6 entorno-text order-md-first order-last">
+        <div class="col-12 col-md-6 entorno-text">
           <p class="pre-titulo">Entorno</p>
           <h2>Flora y Fauna</h2>
           <WaveComp/>
           <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
-          <img src="../assets/img/florayfauna.png" alt="rio con volcan" class="img-fluid img-entorno">
+        <div class="col-12 col-md-6 px-0 img-cont text-md-end text-center">
+          <!--CAROUSEL-->
+          <div id="carouselAves" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/florayfauna.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/actividades.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/florayfauna.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="d-flex justify-content-md-end justify-content-center pt-2">
+              <p class="bajada my-0 order-md-0 order-1">Avistamiento de aves.</p>
+              <button class="carousel-control-prev order-md-1 order-0" type="button" data-bs-target="#carouselAves" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next order-2" type="button" data-bs-target="#carouselAves" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              </div>
+          </div>
         </div>
       </div>
       <div class="row align-items-center entorno-cont">
-        <div class="col-12 col-md-6 px-0 text-md-start text-center">
-          <img src="../assets/img/actividades.png" alt="rio con volcan" class="img-fluid img-entorno">
+        <div class="col-12 col-md-6 px-0 text-md-start text-center order-md-first order-last">
+          <!--CAROUSEL-->
+          <div id="carouselActividades" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/actividades.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/florayfauna.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/florayfauna.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="d-flex justify-content-md-start justify-content-center pt-2">
+              <p class="bajada my-0 order-md-2 order-1">Actividades.</p>
+              <button class="carousel-control-prev order-md-1 order-0" type="button" data-bs-target="#carouselActividades" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next order-2" type="button" data-bs-target="#carouselActividades" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-md-6 entorno-text text-md-end">
           <p class="pre-titulo">Entorno</p>
@@ -208,14 +378,38 @@
         </div>
       </div>
       <div class="row align-items-center entorno-cont">
-        <div class="col-12 col-md-6 entorno-text order-md-first order-last">
+        <div class="col-12 col-md-6 entorno-text">
           <p class="pre-titulo">Entorno</p>
           <h2>Alrededores</h2>
           <WaveComp/>
           <p class="bajada">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,  incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="col-12 col-md-6 px-0 order-first img-cont text-md-end text-center">
-          <img src="../assets/img/alrededores.png" alt="rio con volcan" class="img-fluid img-entorno">
+        <div class="col-12 col-md-6 px-0 img-cont text-md-end text-center">
+          <!--CAROUSEL-->
+          <div id="Alrededores" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/alrededores.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/actividades.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/florayfauna.png" class="d-block w-100 img-entorno img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="d-flex justify-content-md-end justify-content-center pt-2">
+              <p class="bajada my-0 order-md-0 order-1">Alrededores.</p>
+              <button class="carousel-control-prev order-md-1 order-0" type="button" data-bs-target="#Alrededores" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next order-2" type="button" data-bs-target="#Alrededores" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              </div>
+          </div>
         </div>
       </div>
       <div class="text-center entorno-text">
@@ -229,7 +423,7 @@
   <!--LOCATION-->
   <div class="background-image4">
     <div class="container" id="location">
-      <div class="row align-items-center entorno-cont">
+      <div class="row align-items-center location-cont">
         <div class="col-12 col-md-5">
           <p class="pre-titulo">Como llegar</p>
           <h2>Desde Santiago</h2>
@@ -240,7 +434,7 @@
           <img src="../assets/img/map1.png" alt="rio con volcan" class="img-fluid img-map">
         </div>
       </div>
-      <div class="row align-items-center entorno-cont">
+      <div class="row align-items-center location-cont">
         <div class="col-12 col-md-7 px-0 img-cont text-md-start text-center order-md-first order-end">
           <img src="../assets/img/map2.png" alt="rio con volcan" class="img-fluid img-map">
         </div>
@@ -371,7 +565,7 @@ import WhatsAppBtn from '../components/WhatsAppBtn.vue'
 import WaveComp from '../components/WaveComp.vue'
 import NavBar from '../components/NavBar.vue'
 import GreenButton from '../components/GreenButton.vue'
-import ModalPhoto from '../components/ModalPhoto.vue'
+//import ModalPhoto from '../components/ModalPhoto.vue'
 import AcordionDudas from '../components/AcordionDudas.vue'
 import ContactForm from '../components/ContactForm.vue'
 import FooterComp from '../components/FooterComp.vue'
@@ -384,7 +578,7 @@ export default {
     WaveComp,
     NavBar,
     GreenButton,
-    ModalPhoto,
+    //ModalPhoto,
     AcordionDudas,
     ContactForm,
     FooterComp,

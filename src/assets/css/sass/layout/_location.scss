@@ -3,6 +3,7 @@
   @extend %background-image;
 }
 #location {
+  padding: 100px 48px;
   .little-p {
     margin: 20px 0px;
   }
@@ -15,14 +16,11 @@
   padding: 80px 0px;
   .row {
     padding: 40px 0px;
-    .big-p {
-      padding: 20px 80px;
-      @media (max-width: $desktop-width) {
-        padding: 20px;
-      }
-    }
   }
 }
 .circle {
   margin: 10px;
+}
+.location-cont {
+  padding: 64px 0px;
 }
