@@ -11954,18 +11954,15 @@ p {
   padding: 20px 50px;
   position: relative;
 }
+@media (min-width: 768px) {
+  .navbar {
+    color: black;
+  }
+}
 
 .navbar-brand {
   position: absolute;
   top: 0;
-}
-@media (max-width: 768px) {
-  .navbar-brand {
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
 }
 
 .nav-link {
@@ -11983,6 +11980,15 @@ p {
 
 .navbar-toggler {
   border: transparent;
+}
+
+#offcanvasNavbar.offcanvas {
+  background-color: #25AE7A;
+  justify-content: center;
+}
+
+.btn-close-white {
+  text-align: right;
 }
 
 .background-image {

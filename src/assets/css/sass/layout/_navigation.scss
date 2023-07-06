@@ -8,21 +8,21 @@
     }
   }
 }
+
 .navbar {
   background-color: $light-green-trans;
   padding: 20px 50px;
   position: relative;
+  @media (min-width: $tablet-width) {
+    color: black;
+  }
 }
+
 .navbar-brand {
   position: absolute;
   top: 0;
-  @media (max-width: $tablet-width) {
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
 }
+
 .nav-link {
   @extend %montse-font-light;
   font-size: 16px;
@@ -36,4 +36,12 @@
 }
 .navbar-toggler {
   border: transparent;
+}
+#offcanvasNavbar.offcanvas {
+  background-color: $dark-green;
+  justify-content: center;
+}
+
+.btn-close-white {
+  text-align: right;
 }
